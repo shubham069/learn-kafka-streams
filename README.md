@@ -28,6 +28,6 @@ https://www.javatpoint.com/installing-apache-kafka-on-macos
 
 # Producer and Consumer
 ### Producer 
-bin/kafka-console-producer.sh --broker-list localhost:9092 --topic first_topic
+`bin/kafka-console-producer.sh --broker-list localhost:9092 --topic first_topic`
 ### Consumer
-bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic first_topic
+`bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic first_topic`
