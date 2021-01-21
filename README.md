@@ -24,3 +24,10 @@ https://www.javatpoint.com/installing-apache-kafka-on-macos
 - start the kafka server with bin/kafka-server-start.sh config/server.properties
 
 # Creating topics
+
+
+# Producer and Consumer
+### Producer 
+bin/kafka-console-producer.sh --broker-list localhost:9092 --topic first_topic
+### Consumer
+bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic first_topic
